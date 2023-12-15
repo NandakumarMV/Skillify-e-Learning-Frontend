@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://skillify-backend.nandakumarmv.co",
+        target: "https://skillify-backend.nandakumarmv.co/",
         changeOrigin: true,
       },
     },
