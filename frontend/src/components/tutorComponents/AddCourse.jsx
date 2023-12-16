@@ -33,7 +33,7 @@ const AddCourse = () => {
 
   const getDomain = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/admin/domains", {
+      const res = await axios.get("https://skillify-backend.nandakumarmv.co/api/admin/domains", {
         withCredentials: true,
       });
 

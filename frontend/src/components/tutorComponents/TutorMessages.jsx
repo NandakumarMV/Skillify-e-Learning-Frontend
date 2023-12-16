@@ -10,7 +10,7 @@ import {
 import { button, input } from "@material-tailwind/react";
 import io from "socket.io-client";
 import { FaPaperPlane } from "react-icons/fa";
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://skillify-backend.nandakumarmv.co";
 var socket, selectedChatCompare;
 
 const TutorMessages = () => {

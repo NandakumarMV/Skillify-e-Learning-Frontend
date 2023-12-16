@@ -10,7 +10,7 @@ import {
 } from "../../slices/userApiSlice";
 import io from "socket.io-client";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://skillify-backend.nandakumarmv.co";
 var socket, selectedChatCompare;
 
 const Messages = () => {

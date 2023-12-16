@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { useUpdateProfileMutation } from "../../slices/userApiSlice";
 import { setCredentials } from "../../slices/userAuthSlice";
 import { FaUserCircle } from "react-icons/fa";
-const PROFILE_URL = "http://localhost:5000/images/";
 
 const UserProfile = () => {
   const [name, setName] = useState("");

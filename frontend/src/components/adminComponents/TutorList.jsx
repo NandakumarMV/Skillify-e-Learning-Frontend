@@ -7,7 +7,7 @@ const TutorList = () => {
 
   const getTutor = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/admin/tutors", {
+      const res = await axios.get("https://skillify-backend.nandakumarmv.co/api/admin/tutors", {
         withCredentials: true,
       });
       setTutor(res.data);
